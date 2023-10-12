@@ -1,5 +1,5 @@
 #!/bin/bash
 python -m llava.serve.cli \
-    --model-path /media/volume1/aicasr/llava-llama-2-13b-chat-lightning-preview \
-    --image-file "/home/t36668/tmp/MN4a54ql.jpg" \
+    --model-path /home/azureuser/asr_data/ExternalData/models/llava-llama-2-13b-chat-lightning-preview \
+    --image-file "/home/azureuser/12314.png" \
     --load-4bit
